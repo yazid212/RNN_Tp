@@ -1,8 +1,7 @@
 Here’s the properly formatted **`README.md`** file code you asked for:
 
-```markdown
-# 📊 TP5: RNN vs Feed-Forward - Résultats et Analyse
 
+# 📊 TP5: RNN vs Feed-Forward - Résultats et Analyse
 ## 🎯 Objectif
 Comparer les performances des réseaux de neurones récurrents (RNN) et des réseaux feed-forward (FF) pour la prédiction de mots dans des phrases en français.
 
@@ -18,14 +17,14 @@ TP5_RNN_IA_NLP/
 ├── train_models.py      # Script d'entraînement
 ├── test_models.py       # Script de test et analyse
 └── README.md            # Ce fichier
-```
+
 
 ---
-
+```
 ## 🚀 Comment exécuter
 
 ### Installation
-```bash
+```
 pip install tensorflow numpy
 ```
 
@@ -105,13 +104,3 @@ Test avec contexte progressif :
 - Maintient une mémoire du sujet.  
 - Capture les relations sujet-verbe éloignées.  
 - S’adapte aux séquences de longueur variable.  
-
----
-
-## 📋 Spécifications Techniques
-- **Modèles :** RNN (SimpleRNN 16 unités), FF-2, FF-6  
-- **Données :** 6 phrases, vocabulaire de 18 mots  
-- **Performance :** 100% d’accuracy sur le corpus d’entraînement  
-```
-
-Would you like me to also add **visual plots of training accuracy/loss curves** (in Markdown with placeholders for graphs), so the README looks more like a research report?
